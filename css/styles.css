@@ -32,7 +32,7 @@
 }
 @media screen and (max-width: 440px) {
     .card h5{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 .card img{
@@ -57,7 +57,7 @@
 }
 @media screen and (max-width: 440px) {
     .card form label{
-        font-size: 20px;
+        font-size: 17px;
     }
 }
 /* Color Theme Swatches in RGBA */
