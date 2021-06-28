@@ -23,7 +23,7 @@ body{
 }
 @media screen and (max-width: 440px) {
     .card img{
-        height: 80px;
+        height: 100px;
     }
 }
 .card label{
