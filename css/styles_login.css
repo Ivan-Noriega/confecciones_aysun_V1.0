@@ -13,15 +13,35 @@ body{
 }
 
 .card{
-    height: 90%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(230, 199, 78, 0);
 }
 
 .card img{
-    height: 140px;
+    height: 180px;
 }
 @media screen and (max-width: 440px) {
     .card img{
         height: 80px;
     }
+}
+.card label{
+    font-family: 'Benne', serif;
+    color: aliceblue;
+    font-size: 130%;
+    padding-top: 10px;
+}
+.card form{
+    margin-top: 20px;
+}
+
+.card form input{
+    width: 200px;
+    background-color: rgba(191, 153, 0, 0.9);
+    border: 0px;
+}
+
+.card button{
+    margin-top: 25px;
 }
