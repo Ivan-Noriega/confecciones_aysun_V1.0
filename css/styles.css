@@ -54,6 +54,7 @@
     padding-bottom: 5px;
     font-family: 'Benne', serif;
     font-size: 20px;
+    color: aliceblue;
 }
 @media screen and (max-width: 440px) {
     .card form label{
@@ -70,6 +71,11 @@
     .card form input{
         width: 120px;
     }
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
 }
 /* Color Theme Swatches in RGBA */
 .Amarillo-1-rgba { color: rgba(191, 153, 0, 1); }
