@@ -57,7 +57,7 @@
 }
 @media screen and (max-width: 440px) {
     .card form label{
-        font-size: 10px;
+        font-size: 20px;
     }
 }
 /* Color Theme Swatches in RGBA */
