@@ -60,6 +60,17 @@
         font-size: 17px;
     }
 }
+
+.card form input{
+    width: 200px;
+    background-color: rgba(191, 153, 0, 0.9);
+    border: 0px;
+}
+@media screen and (max-width: 440px) {
+    .card form input{
+        width: 120px;
+    }
+}
 /* Color Theme Swatches in RGBA */
 .Amarillo-1-rgba { color: rgba(191, 153, 0, 1); }
 .Amarillo-2-rgba { color: rgba(204, 163, 0, 1); }
