@@ -6,13 +6,15 @@
 }
 .blur{
     position: absolute;
-    background-color: rgba(230, 199, 78, 0.5);
+    background-color: rgba(230, 199, 78, 0.4);
     height: 100vh;
     width: 100vw;
 }
 .card{
     height: 90%;
     width: 400px;
+    background-color: rgba(191, 153, 0, 0);
+    border: 0px;
 }
 
 @media screen and (max-width: 440px) {
@@ -26,6 +28,7 @@
     padding-top: 10px;
     padding-bottom: 5px;
     font-size: 2rem;
+    color: rgba(217, 178, 39, 1);
 }
 @media screen and (max-width: 440px) {
     .card h5{
@@ -45,11 +48,18 @@
 .card form {
     padding-top: 10px;
 }
+
 .card form label{
     padding-top: 10px;
     padding-bottom: 5px;
+    font-family: 'Benne', serif;
+    font-size: 20px;
 }
-
+@media screen and (max-width: 440px) {
+    .card form label{
+        font-size: 10px;
+    }
+}
 /* Color Theme Swatches in RGBA */
 .Amarillo-1-rgba { color: rgba(191, 153, 0, 1); }
 .Amarillo-2-rgba { color: rgba(204, 163, 0, 1); }
