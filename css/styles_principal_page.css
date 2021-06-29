@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(50deg,rgba(255, 255, 255, 0) 5%, rgba(253, 221, 15, 0.411) 95%);
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nab{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nab a{
+    height: 10vh;
+}
+.nab a img{
+    height: 8vh;
+    margin-left: 10px;
+}
+
+.nab h5{
+    font-family: 'Dancing Script', cursive;
+    line-height: 10vh;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(191, 153, 0, .5);
+    width: max-content;
+}
+
+.nab ul li{    
+    list-style: none;
+}
+
+.nab ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(191, 153, 0, .5);
+    padding: -3px;
+    font-family: 'Benne', serif;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.nab ul{
+    display: flex;
+    margin-right: 20px;
+}
+
+.nab ul li{
+    line-height: 10vh;
+    width: max-content;
+}
+
+.nab ul li:hover{
+    background-color: rgba(242, 229, 145, 1);
+    transition: 0.5s;
+}
+
+.bars{
+    
+}
+
+.bars img{
+    
+}
+/* Color Theme Swatches in RGBA */
+.Amarillo-1-rgba { color: rgba(191, 153, 0, 1); }
+.Amarillo-2-rgba { color: rgba(204, 163, 0, 1); }
+.Amarillo-3-rgba { color: rgba(217, 178, 39, 1); }
+.Amarillo-4-rgba { color: rgba(230, 199, 78, 1); }
+.Amarillo-5-rgba { color: rgba(242, 229, 145, 1); }
+
+/*(Titles) font-family: 'Dancing Script', cursive;*/
+/*(normal text) font-family: 'Benne', serif;*/
