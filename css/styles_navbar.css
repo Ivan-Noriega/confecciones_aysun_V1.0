@@ -9,6 +9,7 @@ header{
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 .nab{
     display: flex;
@@ -42,7 +43,7 @@ header{
     color: rgba(194, 47, 42, 0.6);
     padding: -3px;
     font-family: 'Benne', serif;
-    font-size: 9px;
+    font-size: 13px;
     padding: 3px;
 }
 
@@ -99,7 +100,10 @@ header{
         justify-content: center;
     }
     .nab ul li a:hover{
-        background: none;        
+        background: none;      
+    }
+    .nab ul li a{
+        font-size: 19px;
     }
     .toggle{
         display: block;
