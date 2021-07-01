@@ -42,13 +42,6 @@ body{
     border: 0px;
 }
 
-.card button {
-    margin-top: 25px;
-}
-.card button a{
-    text-decoration: none;
-}
-
 .card a{
     font-size: 90%;
 }

@@ -1,0 +1,39 @@
+.background{
+    background-image: url(/img/contact-bg.jpg);
+    margin-top: 10vh;
+    height: 81vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    height: 80%;
+    width: 90%;
+    background-color: aqua;
+}
+.a{
+    background-color: blue;
+}
+.a textarea{
+    resize: none;
+    
+}
+.b{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+}
+
+/* Color Theme Swatches in RGBA */
+.Amarillo-1-rgba { color: rgba(191, 153, 0, 1); }
+.Amarillo-2-rgba { color: rgba(204, 163, 0, 1); }
+.Amarillo-3-rgba { color: rgba(217, 178, 39, 1); }
+.Amarillo-4-rgba { color: rgba(230, 199, 78, 1); }
+.Amarillo-5-rgba { color: rgba(242, 229, 145, 1); }
+
+/*(Titles) font-family: 'Dancing Script', cursive;*/
+/*(normal text) font-family: 'Benne', serif;*/
