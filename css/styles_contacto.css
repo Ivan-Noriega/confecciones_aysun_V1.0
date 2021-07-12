@@ -1,32 +1,113 @@
-.background{
-    background-image: url(/img/contact-bg.jpg);
+*{
+    margin: 0;
+    padding: 0;
+}
+.supreme{
     margin-top: 10vh;
-    height: 81vh;
-    width: 100%;
-    background-repeat: no-repeat;
+    background-image: url(/img/contact-bg.jpg);
     background-size: cover;
     object-fit: cover;
+    min-height: 81vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.caja{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
-.contenedor{
-    height: 80%;
-    width: 90%;
-    background-color: aqua;
-}
 .a{
-    background-color: blue;
+    background-color: rgba(242, 229, 145, .7999);
+    width: 80%;
+    text-align: center;
 }
-.a textarea{
-    resize: none;
-    
+
+.a h3{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 9px;
+    color: rgba(191, 153, 0, 1);
 }
+
+.caja2{
+    display: flex;
+    justify-content: center;
+}
+
+.general-grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
+}
+
 .b{
-    height: 50%;
-    width: 100%;
-    background-color: yellow;
+    background-color: rgba(242, 229, 145, .7999);
 }
+.b h5{
+    font-family: 'Benne', serif;
+    font-size: 25px;
+    color: rgba(191, 153, 0, 1);
+    padding-left: 105px;
+}
+.b form{
+    text-align: center;
+}
+.b textarea{
+    resize: none;
+    background-color: rgba(191, 153, 0, 0.5);
+    height: 260px;
+    width: 80%;
+}
+.c{
+    background-color: rgba(242, 229, 145, .7999);
+}
+.c h5{
+    font-family: 'Benne', serif;
+    margin-left: 20px;
+    width: 100%;
+    font-size: 25px;
+    color: rgba(191, 153, 0, 1);    
+}
+.caja3{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+.grid-social-networks{    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(2, 70px);
+    gap: 20px;
+    margin-top: 50px;
+}
+.grid-social-networks img{
+    height: 80px;
+    width: 80px;
+}
+@media screen and (max-width: 308px) {
+    .supreme{
+        min-height: 78vh;
+    }
+}
+@media screen and (max-width: 280px) {
+    .a h3{
+        padding: 5px;
+        font-size: 30px;    
+    }
+    .b h5{
+        padding: 0;
+        text-align: center;
+    }
+    .c h5{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .grid-social-networks{
+        margin-top: 0px;
+        padding-bottom: 15px;
+    }
+}
+
+
 
 /* Color Theme Swatches in RGBA */
 .Amarillo-1-rgba { color: rgba(191, 153, 0, 1); }

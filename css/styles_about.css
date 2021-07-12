@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.supreme{
+    margin-top: 10vh;
+    background-image: url(/img/contact-bg.jpg);
+    background-size: cover;
+    object-fit: cover;
+    min-height: 81vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.caja{
+    width: 90vw;
+}
+.grid-contenedor{
+    background-color: rgba(242, 229, 145, .7999);
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    align-items: center;
+}
+
+.promotion{
+    border-radius: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    max-height: 73vh;
+}
+.contenedor{
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: auto;
+    height: 100%;
+    width: 100%;
+    padding: 30px 0px;
+}
+.superior{
+    padding-left: 80px;
+    padding-right: 60px;
+}
+.inferior{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contenedor h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgba(191, 153, 0, 1);
+}
+.contenedor p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Benne', serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: center;
+    color: rgba(204, 163, 0, 0.7);
+}
+.derecha{
+    text-align: start;
+}
+.izquierda{
+    text-align: end;
+}
+@media screen and (max-width: 990px){
+    .superior{
+        padding: 0px;
+    }
+    .inferior{
+        padding: 0px;
+    }
+    .derecha, .izquierda{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 750px){
+    .promotion{
+        padding: 5%;
+    }
+}
+@media screen and (max-width: 374px) {
+    .grid-contenedor{
+        grid-template-columns: 1fr;
+    }
+    .contenedor{
+        width: 100%;
+    }
+    .contenedor h3{
+        padding: 5;
+        font-size: 2rem;
+    }
+    .derecha, .izquierda{
+        padding: 10px;
+        padding-top: -10px;
+        padding-bottom: -10px;
+    }
+    .contenedor p{
+        padding: 5px;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Color Theme Swatches in RGBA */
+.Amarillo-1-rgba { color: rgba(191, 153, 0, 1); }
+.Amarillo-2-rgba { color: rgba(204, 163, 0, 1); }
+.Amarillo-3-rgba { color: rgba(217, 178, 39, 1); }
+.Amarillo-4-rgba { color: rgba(230, 199, 78, 1); }
+.Amarillo-5-rgba { color: rgba(242, 229, 145, 1); }
+
+/*(Titles) font-family: 'Dancing Script', cursive;*/
+/*(normal text) font-family: 'Benne', serif;*/
