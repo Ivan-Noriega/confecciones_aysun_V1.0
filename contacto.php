@@ -9,18 +9,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--Self Import-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="shortcut icon" href="/img/ico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/ca_final/img/ico.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/img/ico.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/styles_navbar.css">
-    <link rel="stylesheet" href="/css/styles_contacto.css">
+    <link rel="shortcut icon" href="/ca_final/img/ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/ca_final/css/styles_navbar.css">
+    <link rel="stylesheet" href="/ca_final/css/styles_contacto.css">
     <script src="https://kit.fontawesome.com/c6eeb44b61.js" crossorigin="anonymous"></script>
-    <script defer src="/java docs/navscroll.js"></script>
+    <script defer src="/ca_final/java docs/navscroll.js"></script>
 <!--End Self Import-->
     <title>Confecciones "Aysun"</title>
   </head>
@@ -30,7 +30,7 @@
     <header>
         <nav class="nab">
         <a href="" class="logo d-flex align-items-center">
-          <img src="/img/ca-logo.svg" alt="">
+          <img src="/ca_final/img/ca-logo.svg" alt="">
         </a>
         <h5>
           Confecciones "Aysun"
@@ -40,17 +40,17 @@
         </button>
         <ul class="nav-menu">
           <li>
-            <a href="/index.html">
+            <a href="/ca_final">
               Inicio
             </a>
           </li>
           <li>
-            <a href="/contacto.html">
+            <a href="/ca_final/contacto.php">
               contacto
             </a>
           </li>
           <li>
-            <a href="/about.html">
+            <a href="/ca_final/about.php">
               nosotros
             </a>
           </li>
@@ -86,16 +86,16 @@
             <div class="caja3">
               <div class="grid-social-networks">
                 <a href="">
-                  <img src="/img/Faceboook.svg" alt="" class="facebook">
+                  <img src="/ca_final/img/Faceboook.svg" alt="" class="facebook">
                 </a>
                 <a href="">
-                  <img src="/img/WhatsApp.svg" alt="" class="whatsapp">
+                  <img src="/ca_final/img/WhatsApp.svg" alt="" class="whatsapp">
                 </a>
                 <a href="">
-                  <img src="/img/Instagram.svg" alt="" class="instagram">
+                  <img src="/ca_final/img/Instagram.svg" alt="" class="instagram">
                 </a>
                 <a href="">
-                  <img src="/img/Twitter.svg" alt="" class="twitter">
+                  <img src="/ca_final/img/Twitter.svg" alt="" class="twitter">
                 </a>
               </div>
             </div>
@@ -109,7 +109,7 @@
       
             <div class="text-center p-3" style="background-color: rgba(191, 153, 0, 1);">
               © 2020 Copyright:
-              <a clas s="text-dark" href="/index.html">Confecciones Aysun</a>
+              <a clas s="text-dark" href="/ca_final">Confecciones Aysun</a>
             </div>
             
           </footer>  

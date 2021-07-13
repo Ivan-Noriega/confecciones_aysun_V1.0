@@ -17,15 +17,15 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
-            <link rel="shortcut icon" href="/img/ico.ico" type="image/x-icon">
-            <link rel="stylesheet" href="/css/styles_navbar.css">
+            <link rel="shortcut icon" href="/ca_final/img/ico.ico" type="image/x-icon">
+            <link rel="stylesheet" href="/ca_final/css/styles_navbar.css">
             <script src="https://kit.fontawesome.com/c6eeb44b61.js" crossorigin="anonymous"></script>
-            <script defer src="/java docs/navscroll.js"></script>
-            <link rel="stylesheet" href="/css/styles_cards_products.css">
-            <link rel="stylesheet" href="/css/styles_herobanner.css">
-            <link rel="stylesheet" href="/css/footer.css">
+            <script defer src="/ca_final/java docs/navscroll.js"></script>
+            <link rel="stylesheet" href="/ca_final/css/styles_cards_products.css">
+            <link rel="stylesheet" href="/ca_final/css/styles_herobanner.css">
+            <link rel="stylesheet" href="/ca_final/css/footer.css">
             <script defer src="https://unpkg.com/scrollreveal"></script>
-            <script defer src="/java docs/animation.js"></script>
+            <script defer src="/ca_final/java docs/animation.js"></script>
         <!--End Self Import-->
 
     <title>Confecciones "Aysun"</title>
@@ -36,7 +36,7 @@
     <header>
       <nav class="nab">
         <a href="#inicio" class="logo d-flex align-items-center">
-          <img src="/img/ca-logo.svg" alt="">
+          <img src="/ca_final/img/ca-logo.svg" alt="">
         </a>
         <h5>
           Confecciones "Aysun"
@@ -46,17 +46,17 @@
         </button>
         <ul class="nav-menu">
           <li>
-            <a href="/index.html">
+            <a href="/ca_final">
               Inicio
             </a>
           </li>
           <li>
-            <a href="/contacto.html">
+            <a href="/ca_final/contacto.php">
               contacto
             </a>
           </li>
           <li>
-            <a href="/about.html">
+            <a href="/ca_final/about.php">
               nosotros
             </a>
           </li>
@@ -84,7 +84,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-md card">
             <div class="imgcarrie">
-              <img src="/img/zapatito-de-bebé.jpg" alt="">
+              <img src="/ca_final/img/zapatito-de-bebé.jpg" alt="">
               <div class="hover-contenedor">
                 <div class="hover"></div>
                 <a href="">
@@ -101,7 +101,7 @@
           </div>
           <div class="col-md card">
             <div class="imgcarrie">
-              <img src="/img/bolsas-de-tela.jpg" alt="">
+              <img src="/ca_final/img/bolsas-de-tela.jpg" alt="">
               <div class="hover-contenedor">
                 <div class="hover"></div>
                 <a href="">
@@ -118,7 +118,7 @@
           </div>
           <div class="col-md card">
             <div class="imgcarrie">
-              <img src="/img/portacelular.jpg" alt="">
+              <img src="/ca_final/img/portacelular.jpg" alt="">
               <div class="hover-contenedor">
                 <div class="hover"></div>
                 <a href="">
@@ -143,7 +143,7 @@
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(191, 153, 0, 1);">
         © 2020 Copyright:
-        <a class="text-dark" href="/index.html">Confecciones Aysun</a>
+        <a class="text-dark" href="/ca_final">Confecciones Aysun</a>
       </div>
       <!-- Copyright -->
     </footer>  

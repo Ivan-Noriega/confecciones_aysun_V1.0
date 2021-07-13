@@ -16,7 +16,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/css/styles_login.css">
+        <link rel="stylesheet" href="/ca_final/css/styles_login.css">
     <!--End Self Import-->
     <title>Confecciones "Aysun"</title>
   </head>
@@ -24,8 +24,8 @@
     <div class="blur d-flex justify-content-center align-items-center">
         <div class="card text-center d-flex justify-content-center">
             <div class="">
-                <img src="/img/ca-logo.svg" class="img-fluid" alt="">
-            <form>
+                <img src="/ca_final/img/ca-logo.svg" class="img-fluid" alt="">
+            <form action="index.php" method="POST">
                 <label>
                     Usuario
                 </label>
@@ -40,7 +40,7 @@
                 <br>
                 <input type="submit" value="Enviar" class="btn btn-outline-warning" style="width: 8%; margin-top: 25px; background-color: rgba(230, 199, 78, 0.4);">
             </form>
-                <a href="/register_page.html">
+                <a href="/ca_final/register_page.php">
                     o regístrate aquí
                 </a>            
             </div>
@@ -51,7 +51,7 @@
         <!-- Copyright -->
         <div class="text-center p-3" style="width: 100%; margin-top: 91vh; position: absolute; background-color: rgba(191, 153, 0, 1);">
           © 2020 Copyright:
-          <a class="text-dark" href="/index.html">Confecciones Aysun</a>
+          <a class="text-dark" href="/ca_final">Confecciones Aysun</a>
         </div>
         <!-- Copyright -->
       </footer>  

@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,16 +18,17 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
       <link rel="shortcut icon" href="img/ico.ico" />
-      <link rel="stylesheet" href="/css/styles_register.css">
+      <link rel="stylesheet" href="/ca_final/css/styles_register.css">
     <!--End Self import-->
     <title>Confecciones "Aysun"</title>
   </head>
 
   <body>
 
+
     <div class="bg">
 
-        <img src="/img/bg.jpg" alt="">
+        <img src="/ca_final/img/bg.jpg" alt="">
 
     </div>
 
@@ -35,19 +38,19 @@
           <h5 class="text-center">
             Confecciones "Aysun"
           </h5>
-          <img src="/img/ca-logo.svg" class="img-fluid" alt="">   
-          <form class="text-center">
+          <img src="/ca_final/img/ca-logo.svg" class="img-fluid" alt="">   
+          <form class="text-center" action="register_page.php">
             <label>Usuario</label>
             <br>
-            <input type="text">
+            <input type="text" name="usuario">
             <br>
             <label>Correo electrónico</label>
             <br>
-            <input type="email">
+            <input type="email" name="email">
             <br>
             <label>Contraseña</label>
             <br>
-            <input type="password">
+            <input type="password" name="contraseña">
             <br>
             <label>Repita contraseña</label>
             <br>
@@ -65,7 +68,7 @@
       <!-- Copyright -->
       <div class="text-center p-3" style=" position: absolute; background-color: rgba(191, 153, 0, 1); width: 100%; margin-top: 91vh;">
         © 2020 Copyright:
-        <a class="text-dark" href="/index.html">Confecciones Aysun</a>
+        <a class="text-dark" href="/ca_final">Confecciones Aysun</a>
       </div>
       <!-- Copyright -->
     </footer>  
