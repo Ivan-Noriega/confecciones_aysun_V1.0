@@ -39,7 +39,7 @@
             Confecciones "Aysun"
           </h5>
           <img src="/ca_final/img/ca-logo.svg" class="img-fluid" alt="">   
-          <form class="text-center" action="register_page.php">
+          <form class="text-center">
             <label>Usuario</label>
             <br>
             <input type="text" name="usuario">

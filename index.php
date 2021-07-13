@@ -25,7 +25,7 @@
         <div class="card text-center d-flex justify-content-center">
             <div class="">
                 <img src="/ca_final/img/ca-logo.svg" class="img-fluid" alt="">
-            <form action="index.php" method="POST">
+            <form>
                 <label>
                     Usuario
                 </label>
