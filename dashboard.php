@@ -35,7 +35,6 @@
             <link rel="stylesheet" href="/ca_final/css/styles_herobanner.css">
             <link rel="stylesheet" href="/ca_final/css/footer.css">
             <script defer src="https://unpkg.com/scrollreveal"></script>
-            
         <!--End Self Import-->
 
     <title>Confecciones "Aysun"</title>
