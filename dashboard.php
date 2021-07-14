@@ -1,3 +1,13 @@
+<?php 
+    session_start();
+  
+    if(!$_SESSION['id']){
+        header('location:index.php');
+    }
+ 
+?>
+ 
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -59,6 +69,9 @@
             <a href="/ca_final/about.php">
               nosotros
             </a>
+          </li>
+          <li>
+          <a href="logout.php?logout=true">Logout</a>
           </li>
         </ul>
       </nav>
