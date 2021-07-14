@@ -89,7 +89,8 @@ header{
         width: 100%;
         align-items: center;
         padding: 20px 0;
-        height: calc(100% - 10vh);
+        margin-top: 10vh;
+        height: 90vh;
         overflow-y: auto;
         left: 100%;
         transition: left 0.3s;
