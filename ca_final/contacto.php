@@ -40,7 +40,7 @@
         </button>
         <ul class="nav-menu">
           <li>
-            <a href="/ca_final">
+            <a href="/index.html">
               Inicio
             </a>
           </li>
@@ -112,7 +112,7 @@
       
             <div class="text-center p-3" style="background-color: rgba(191, 153, 0, 1);">
               © 2020 Copyright:
-              <a clas s="text-dark" href="/ca_final">Confecciones Aysun</a>
+              <a clas s="text-dark" href="/index.html">Confecciones Aysun</a>
             </div>
             
           </footer>  

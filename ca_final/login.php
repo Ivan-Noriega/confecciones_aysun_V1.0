@@ -111,7 +111,7 @@ if(isset($_POST['submit']))
         <!-- Copyright -->
         <div class="text-center p-3" style="width: 100%; margin-top: 91vh; position: absolute; background-color: rgba(191, 153, 0, 1);">
           © 2020 Copyright:
-          <a class="text-dark" href="/ca_final">Confecciones Aysun</a>
+          <a class="text-dark" href="/index.html">Confecciones Aysun</a>
         </div>
         <!-- Copyright -->
       </footer>  
