@@ -183,7 +183,7 @@ if(isset($_POST['submit']))
             
             
           </form>       
-          <a href="/ca_final/index.php" class="text-center">
+          <a href="/ca_final/login.php" class="text-center">
             Si te has registrado has clic aquí
           </a>
           <div class="d-flex align-items-center justify-content-center">

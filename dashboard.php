@@ -2,7 +2,7 @@
     session_start();
   
     if(!$_SESSION['id']){
-        header('location:index.php');
+        header('location:index.html');
     }
  
 ?>
