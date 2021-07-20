@@ -70,7 +70,7 @@
             </a>
           </li>
           <li>
-          <a href="logout.php?logout=true">Logout</a>
+          <a href="/ca_final/logout.php?logout=true">Logout</a>
           </li>
         </ul>
       </nav>
