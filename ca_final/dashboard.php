@@ -99,7 +99,7 @@
               <img src="/ca_final/img/zapatito-de-bebé.jpg" alt="">
               <div class="hover-contenedor">
                 <div class="hover"></div>
-                <a href="">
+                <a href="/ca_final/zapatitos.php">
                   <span class="">Ver Ahora</span>
                 </a>
               </div>
@@ -116,7 +116,7 @@
               <img src="/ca_final/img/bolsas-de-tela.jpg" alt="">
               <div class="hover-contenedor">
                 <div class="hover"></div>
-                <a href="">
+                <a href="/ca_final/bolsas.php">
                   <span>Ver Ahora</span>
                 </a>
               </div>
@@ -133,7 +133,7 @@
               <img src="/ca_final/img/portacelular.jpg" alt="">
               <div class="hover-contenedor">
                 <div class="hover"></div>
-                <a href="">
+                <a href="/ca_final/portacelulares.php">
                   <span>Ver Ahora</span>
                 </a>
               </div>

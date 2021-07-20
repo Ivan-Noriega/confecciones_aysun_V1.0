@@ -84,7 +84,7 @@ if(isset($_POST['submit']))
       }
     }
 ?>
-                <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>" action="enviar.php">
                 <label>
                     E-mail
                 </label>

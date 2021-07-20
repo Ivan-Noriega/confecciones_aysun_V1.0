@@ -76,10 +76,10 @@
             <h5>
               Envíanos un e-mail
             </h5>
-            <form action="">
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+            <form action="enviar.php" method="POST">
+              <textarea required name="texto" id="" cols="30" rows="10"></textarea>
               <br>
-            <input type="submit" value="Enviar" class="btn btn-outline-warning" style="width: 100px; margin-top: 20px; background-color: rgba(230, 199, 78, 0.4); margin-bottom: 25px;">
+            <input name="boton" type="submit" value="Enviar" class="btn btn-outline-warning" style="width: 100px; margin-top: 20px; background-color: rgba(230, 199, 78, 0.4); margin-bottom: 25px;">
             </form>
           </div>
           <div class="c">
