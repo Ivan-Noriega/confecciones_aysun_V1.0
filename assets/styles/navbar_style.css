@@ -7,6 +7,7 @@
 
 body{
     background-color: rgba(165, 78, 46, 1);
+    overflow-x: hidden;
 }
 
 header{
@@ -61,7 +62,7 @@ header ul li a{
 
 @media screen and (max-width:768px) {
     body{
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     
     header ul{
@@ -81,6 +82,7 @@ header ul li a{
     }
     .burger{
         display: block;
+        cursor: pointer;
     }
 }
 
