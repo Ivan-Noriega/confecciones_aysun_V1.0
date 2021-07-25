@@ -61,7 +61,7 @@ header ul li a{
 
 @media screen and (max-width:768px) {
     body{
-        overflow-x: hidden;
+        overflow-y: hidden;
     }
     
     header ul{
@@ -78,6 +78,9 @@ header ul li a{
     }
     header ul li{
         opacity: 0;
+    }
+    .burger{
+        display: block;
     }
 }
 
