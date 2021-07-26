@@ -13,6 +13,7 @@ header{
 .nab{
     display: flex;
     justify-content: space-between;
+    background-image: linear-gradient(10deg, rgba(242, 201, 79, .4), rgba(255, 255, 255, 0.3));
 }
 
 .nab a{
@@ -21,7 +22,6 @@ header{
 .nab a img{
     height: 10vh;
     margin-left: 10px;
-    margin-top: 5px;
 }
 
 .nab h5{
@@ -40,7 +40,7 @@ header{
 .nab ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: rgba(242, 201, 79, 1);
+    color: rgb(238, 196, 117);
     padding: -3px;
     font-family: 'Benne', serif;
     font-size: 13px;
@@ -121,7 +121,6 @@ header{
         margin-left: 10px;
     }
 }
-
 
 /*
                 Fonts
