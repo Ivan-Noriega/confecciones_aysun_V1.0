@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 header{
-    background-image: linear-gradient(230deg, rgba(204, 163, 0, .6) 20%, rgba(191, 153, 0, 0) 80%);    
+    background-image: linear-gradient(230deg, rgba(242, 183, 75, 1) 20%, rgba(191, 153, 0, 0) 80%);    
     height: 10vh;
     position: fixed;
     width: 100%;
@@ -118,12 +118,19 @@ header{
         outline: none;
     }
 }
-/* Color Theme Swatches in RGBA */
-.Amarillo-1-rgba { color: rgba(191, 153, 0, 1); }
-.Amarillo-2-rgba { color: rgba(204, 163, 0, 1); }
-.Amarillo-3-rgba { color: rgba(217, 178, 39, 1); }
-.Amarillo-4-rgba { color: rgba(230, 199, 78, 1); }
-.Amarillo-5-rgba { color: rgba(242, 229, 145, 1); }
 
+
+/*
+                Fonts
+    font-family: 'Courgette', cursive;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+/* Color Theme Swatches in RGBA */
+.COLORAMA-1-rgba { color: rgba(242, 87, 115, 1); }
+.COLORAMA-2-rgba { color: rgba(242, 201, 79, 1); }
+.COLORAMA-3-rgba { color: rgba(242, 183, 75, 1); }
+.COLORAMA-4-rgba { color: rgba(216, 113, 23, 1); }
+.COLORAMA-5-rgba { color: rgba(165, 78, 46, 1); }
 /*(Titles) font-family: 'Dancing Script', cursive;*/
 /*(normal text) font-family: 'Benne', serif;*/

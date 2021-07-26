@@ -30,7 +30,7 @@
             <link rel="shortcut icon" href="/ca_final/img/ico.ico" type="image/x-icon">
             <link rel="stylesheet" href="/ca_final/css/styles_navbar.css">
             <script src="https://kit.fontawesome.com/c6eeb44b61.js" crossorigin="anonymous"></script>
-            <script defer src="/ca_final/java docs/navscroll.js"></script>
+            
             <link rel="stylesheet" href="/ca_final/css/styles_cards_products.css">
             <link rel="stylesheet" href="/ca_final/css/styles_herobanner.css">
             <link rel="stylesheet" href="/ca_final/css/footer.css">
