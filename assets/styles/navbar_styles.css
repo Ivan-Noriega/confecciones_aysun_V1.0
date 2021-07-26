@@ -25,7 +25,7 @@ header{
 }
 
 .nab h5{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Courgette', cursive;
     line-height: 10vh;
     font-size: 30px;
     font-weight: bold;
@@ -40,7 +40,7 @@ header{
 .nab ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: rgba(194, 47, 42, 0.6);
+    color: white;
     padding: -3px;
     font-family: 'Benne', serif;
     font-size: 13px;
@@ -82,7 +82,7 @@ header{
     .nav-menu{
         flex-direction: column;
         margin: 0px;
-        background-image: linear-gradient(230deg, rgba(204, 163, 0, .6) 35%, rgba(191, 153, 0, .1) 65%);
+        background-image: linear-gradient(230deg, rgba(242, 183, 75, 1) 20%, rgba(191, 153, 0, 0) 80%);    
         position: fixed;
         left: 0;
         top: 10vh;
