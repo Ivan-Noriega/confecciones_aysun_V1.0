@@ -24,8 +24,8 @@ header a{
 
 header h4{
     color: rgba(242, 201, 79, 1);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
     margin-bottom: 0rem;
 }
 header h4 span{
@@ -84,8 +84,16 @@ header ul li a{
         display: block;
         cursor: pointer;
     }
+    header h4{
+        font-size: 25px;
+    }
 }
 
+@media screen and (max-width:290px) {
+    header h4{
+        font-size: 20px;
+    }
+}
 /*
                 Fonts
     font-family: 'Courgette', cursive;
