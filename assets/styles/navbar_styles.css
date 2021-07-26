@@ -29,7 +29,7 @@ header{
     line-height: 10vh;
     font-size: 30px;
     font-weight: bold;
-    color: rgba(242, 183, 75, 1);
+    color: rgba(242, 201, 79, 1);
     width: max-content;
 }
 
@@ -40,7 +40,7 @@ header{
 .nab ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(242, 201, 79, 1);
     padding: -3px;
     font-family: 'Benne', serif;
     font-size: 13px;
@@ -71,7 +71,7 @@ header{
 }
 .nab button i{
     line-height: 10vh;
-    color: rgba(191, 153, 0, 1);
+    color: rgba(242, 201, 79, 1);
 }
 
 @media(max-width: 768px){
@@ -82,7 +82,6 @@ header{
     .nav-menu{
         flex-direction: column;
         margin: 0px;
-        background-image: linear-gradient(230deg, rgba(242, 183, 75, 1) 20%, rgba(191, 153, 0, 0) 80%);    
         position: fixed;
         left: 0;
         top: 10vh;
@@ -104,7 +103,7 @@ header{
         background: none;      
     }
     .nab ul li a{
-        font-size: 19px;
+        font-size: 10px;
     }
     .toggle{
         display: block;
