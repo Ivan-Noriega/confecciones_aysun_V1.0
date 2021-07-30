@@ -37,9 +37,8 @@ footer{
 }
 
 .imagen{
-    border-radius: 50%;
-    width: 7vw;
     height: 15vh;
+    border-radius: 100%;
     transition: .5s;
 }
 
@@ -77,6 +76,9 @@ footer{
     .caja1 h3{
         font-size: 80px;
     }
+    .imagen{
+        height: 12vh;
+    }
 }
 
 @media(max-width: 480px){
@@ -86,7 +88,11 @@ footer{
     .caja1::after{
         bottom: 10px;
     }
+    .imagen{
+        height: 10vh;
+    }
 }
+
 
 @media(max-width: 370px){
     .caja1 h3{
@@ -94,9 +100,16 @@ footer{
     }
     .caja1::after{
         height: 3px;
-        bottom: 10px;
+        bottom: 20px;
+    }
+    .caja2{
+        margin-bottom: 0px;
+    }
+    .imagen{
+        height: 8vh;
     }
 }
+
 
 @media(max-width: 315px){
     .caja1 h3{
