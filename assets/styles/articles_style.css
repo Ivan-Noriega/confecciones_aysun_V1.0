@@ -1,0 +1,145 @@
+body{
+    background-image: url(/assets/images/background.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img_background{
+    height: 80vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 90vw;
+    background-image: url(/assets/images/landing_page_zapatitos_bebe.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+article .blur{
+    height: 80vh;
+    width: 91%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(242, 201, 79, 0.5);
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.blur h3{
+    font-family: 'Oleo Script', cursive;
+    font-size: 80px;
+    padding-top: 20px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+
+.blur p{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    word-spacing: 20px;
+}
+
+.blur button{
+    font-family: 'Courgette', cursive;
+    color: rgb(251, 228, 157);
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    border-radius: 0%;
+    border: 3px solid rgb(248, 224, 150);
+    background-color: transparent;
+    transition-duration: 1.5s;
+}
+
+.blur button:hover{
+    background-color: rgba(242, 201, 79, 1);
+    color: rgb(53, 51, 51);
+}
+
+@media(max-width: 768px){
+    .blur h3{
+        font-size: 60px;
+    }
+    .blur p{
+        font-size: 40px;
+    }
+    .blur button{
+        font-size: 20px;
+        height: 40px;
+        width: 150px;
+    }
+}
+
+@media(max-width: 576px){
+    .blur h3{
+        font-size: 50px;
+    }
+    .blur p{
+        font-size: 30px;
+    }
+    .blur button{
+        font-size: 20px;
+        height: 40px;
+        width: 150px;
+    }
+}
+
+@media(max-width: 450px){
+    .blur h3{
+        font-size: 40px;
+    }
+    .blur p{
+        font-size: 30px;
+    }
+    .blur button{
+        font-size: 20px;
+        height: 40px;
+        width: 150px;
+    }
+}
+
+@media(max-width: 390px){
+    .blur h3{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 365px){
+    .blur h3{
+        font-size: 30px;
+    }
+    .blur p{
+        font-size: 25px;
+    }
+    .blur button{
+        font-size: 15px;
+        height: 35px;
+        width: 100px;
+    }
+}
+
+/*
+                Fonts
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+/* Color Theme Swatches in RGBA */
+.COLORAMA-1-rgba { color: rgba(242, 87, 115, 1); }
+.COLORAMA-2-rgba { color: rgba(242, 201, 79, 1); }
+.COLORAMA-3-rgba { color: rgba(242, 183, 75, 1); }
+.COLORAMA-4-rgba { color: rgba(216, 113, 23, 1); }
+.COLORAMA-5-rgba { color: rgba(165, 78, 46, 1); }
