@@ -8,6 +8,9 @@
     <!--
         Self Import
     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c6eeb44b61.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +18,7 @@
     <link rel="shortcut icon" href="/assets/images/ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/styles/navbar_styles.css">
     <link rel="stylesheet" href="/assets/styles/landing_page_index.css">
+    <link rel="stylesheet" href="/assets/styles/footer_style.css">
     <script defer src="/assets/js_docs/navscroll.js"></script>
     <!--
         End Self Import
@@ -43,21 +47,6 @@
             Inicio
           </a>
         </li>
-        <li>
-          <a href="#">
-            Item 1
-          </a>
-        </li>
-        <li>
-            <a href="#">
-              Item 2
-            </a>
-        </li>
-        <li>
-            <a href="#">
-              Item 3
-            </a>
-        </li>
       </ul>
     </nav>
   </header>
@@ -66,7 +55,7 @@
   <!--
     IMG de presentacion
   -->
-    <div class="landing_page">
+    <div class="landing_page" id="inicio">
       <div class="a1">
         <img src="/assets/images/image_principal_page.jpg" alt="" class="imagen_principal_page">
       </div>
@@ -95,11 +84,41 @@
   <!--
     END IMG de presentacion
   -->
-    
+
+<!--
+  Responsive footer
+-->
+  <footer>
+    <div class="caja1">
+      <h3>
+        Contáctanos:
+      </h3>
+    </div>
+    <div class="caja2">
+          <a href="">   
+            <img src="/assets/images/WhatsApp.svg" alt="" class="imagen">
+          </a>
+          <a href="">
+            <img src="/assets/images/Faceboook.svg" alt="" class="imagen">        
+          </a>
+          <a href="">
+            <img src="/assets/images/Instagram.svg" alt="" class="imagen">        
+          </a>
+          <a href="">
+          <img src="/assets/images/Twitter.svg" alt="" class="imagen">
+          </a>                              
+    </div>
+    <div class="caja3">
+        <span class="p1">© 2021 Copyright: </span>
+        <span class="p2">Confecciones Aysun</span>
+    </div>
+  </footer>
+<!--
+  End Responsive footer
+-->
+
 <!--Self JS addons-->
 
-</body>
-</html>
 
 <!--
     /*
@@ -115,3 +134,4 @@
 .COLORAMA-4-rgba { color: rgba(216, 113, 23, 1); }
 .COLORAMA-5-rgba { color: rgba(165, 78, 46, 1); }
 -->
+</body>
