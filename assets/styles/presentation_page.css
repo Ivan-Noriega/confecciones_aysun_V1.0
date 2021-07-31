@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.presentation_page{
+    position: relative;
+}
+.presentation_page img{
+    height: 100vh;    
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.presentation_page .blur{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(63, 58, 58, 0.7);
+    position: absolute;
+}
+
+.textoh2, .textopyspan{
+    position: absolute;
+}
+
+.textoh2{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 6px white solid;
+}
+.textoh2 h2{
+    font-family: 'Courgette', cursive;
+    font-size: 90px;
+    padding: 30px 150px 30px 150px;
+    font-weight: lighter;
+    color: white;
+}
+
+.textopyspan{
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textopyspan p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    word-spacing: 20px;
+}
+
+.textopyspan span{
+    font-family: 'Parisienne', cursive;
+    font-weight: lighter;
+    font-size: 55px;
+}
+
+.separador{
+    margin-top: -5px;
+    width: 100%;
+    background-color:rgba(87, 96, 111,1.0);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.separador h3{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: rgba(223, 228, 234, .6);
+}
+
+.separador h5{
+    font-family: 'Open Sans', sans-serif;
+    color:rgba(167, 167, 167, .4);
+}
+
+@media (max-width:768px) {
+    .textoh2 h2{
+        font-size: 65px;
+        padding: 10px 100px 10px 100px;
+    }    
+    .textopyspan{
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .textopyspan p{
+        font-size: 40px;
+        text-align: center;
+        width: 98vw;
+    }
+    
+    .textopyspan span{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:576px) {
+    .textoh2 h2{
+        font-size: 50px;
+        padding: 10px 100px 10px 100px;
+    }    
+    .textopyspan{
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .textopyspan p{
+        font-size: 30px;
+        text-align: center;
+        width: 98vw;
+    }
+    
+    .textopyspan span{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:450px) {
+    .textoh2 h2{
+        font-size: 40px;
+        padding: 7px 80px 7px 80px;
+    }    
+    .textopyspan{
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .textopyspan p{
+        font-size: 25px;
+        text-align: center;
+        width: 98vw;
+    }
+    
+    .textopyspan span{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:370px) {
+    .textoh2 h2{
+        font-size: 30px;
+        padding: 7px 50px 7px 50px;
+    }    
+    .textopyspan{
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .textopyspan p{
+        font-size: 18px;
+        text-align: center;
+        width: 98vw;
+    }
+    
+    .textopyspan span{
+        font-size: 25px;
+    }
+
+    .separador h3{
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+}
+
+/*
+                Fonts
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+/* Color Theme Swatches in RGBA */
+.COLORAMA-1-rgba { color: rgba(242, 87, 115, 1); }
+.COLORAMA-2-rgba { color: rgba(242, 201, 79, 1); }
+.COLORAMA-3-rgba { color: rgba(242, 183, 75, 1); }
+.COLORAMA-4-rgba { color: rgba(216, 113, 23, 1); }
+.COLORAMA-5-rgba { color: rgba(165, 78, 46, 1); }
+/*
+                    BREACKPOINTS
+  Breakpoint                            Dimensions
+  X-Small	None	                        <576px
+  Small                                 ≥576px
+  Medium                                ≥768px
+  Large                                 ≥992px
+  Extra large                           ≥1200px
+  Extra extra large                     ≥1400px
+  */

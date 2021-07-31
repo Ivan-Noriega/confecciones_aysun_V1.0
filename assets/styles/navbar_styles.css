@@ -109,6 +109,27 @@ header{
         padding-right: 10px;
     }
 }
+@media(max-width: 1020px){
+    .submenu{
+        overflow: visible;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+        transition-timing-function: ease-in;
+    }
+
+    .hovercontenedor:hover .submenu{
+        opacity: 1;
+        visibility: visible;
+        transform: translatex(-50px);
+    }
+
+    .submenu li{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 
 @media(max-width: 768px){
     .nab h5{

@@ -54,6 +54,7 @@ article .blur{
     border: 3px solid rgb(248, 224, 150);
     background-color: transparent;
     transition-duration: 1.5s;
+    cursor: pointer;
 }
 
 .blur button:hover{
