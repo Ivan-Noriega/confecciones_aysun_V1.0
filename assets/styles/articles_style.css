@@ -1,9 +1,3 @@
-body{
-    background-image: url(/assets/images/background.jpg);
-    background-size: cover;
-    object-fit: cover;
-}
-
 article{
     display: flex;
     justify-content: center;

@@ -1,8 +1,21 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(/assets/images/background.jpg);
+    background-size: cover;
+    object-fit: cover;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
 footer{
     background-color: rgba(242, 183, 75, 1);
     display: grid;
     grid-auto-columns: 1fr;
     min-height: 50vh;
+    width: 100%;
 }
 
 .caja1{
