@@ -3,9 +3,7 @@
 }
 
 body{
-    background-image: url(/assets/images/background.jpg);
-    background-size: cover;
-    object-fit: cover;
+    background-color: #84817a;
     min-height: 100vh;
     max-width: 100%;
 }

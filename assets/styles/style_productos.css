@@ -1,0 +1,141 @@
+*, *::before, *::after{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.contenedor_productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+    width: 100%;
+    column-gap: 10px;
+    justify-items: center;
+}
+
+.card{
+    display: grid;
+    height: 260px;
+    width: 230px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    transition: all 1s ease-in-out;
+    text-align: center;
+    background-image: linear-gradient(10deg, rgba(242, 201, 79, 0.8), rgba(255, 255, 255, .5));
+}
+
+.card:hover{
+    align-content: center;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.card-encabezado{
+    height: 260px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-encabezado img{
+    border-radius: 5%;
+    height: 90%;
+    width: 90%;
+    background-size: cover;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.card-contenido p{
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(149, 149, 124);
+    padding-bottom: 10px;
+}
+
+.card-contenido ul{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.card-contenido ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: rgb(149, 149, 124);;
+}
+
+.card-animo p{
+    color: rgb(149, 149, 124);
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.card-iconos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-iconos img{
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.card-iconos img:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    transition-timing-function: ease-in;
+}
+
+/*
+.imagen{
+    height: 15vh;
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.imagen:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    transition-timing-function: ease-in;
+    
+}*/
+
+/*
+                Fonts
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+/* Color Theme Swatches in RGBA */
+.COLORAMA-1-rgba { color: rgba(242, 87, 115, 1); }
+.COLORAMA-2-rgba { color: rgba(242, 201, 79, 1); }
+.COLORAMA-3-rgba { color: rgba(242, 183, 75, 1); }
+.COLORAMA-4-rgba { color: rgba(216, 113, 23, 1); }
+.COLORAMA-5-rgba { color: rgba(165, 78, 46, 1); }
+/*
+                    BREACKPOINTS
+  Breakpoint                            Dimensions
+  X-Small	None	                        <576px
+  Small                                 ≥576px
+  Medium                                ≥768px
+  Large                                 ≥992px
+  Extra large                           ≥1200px
+  Extra extra large                     ≥1400px
+  */
