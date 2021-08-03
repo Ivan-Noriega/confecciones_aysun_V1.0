@@ -22,7 +22,7 @@
 .card{
     display: grid;
     height: 260px;
-    width: 230px;
+    width: 250px;
     overflow: hidden;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -51,7 +51,6 @@
     height: 90%;
     width: 90%;
     background-size: cover;
-    object-fit: cover;
     transition: all 0.3s ease;
 }
 
@@ -100,19 +99,6 @@
     background-color: rgba(0, 0, 0, 0.6);
     transition-timing-function: ease-in;
 }
-
-/*
-.imagen{
-    height: 15vh;
-    border-radius: 100%;
-    transition: .5s;
-}
-
-.imagen:hover{
-    background-color: rgba(0, 0, 0, 0.6);
-    transition-timing-function: ease-in;
-    
-}*/
 
 /*
                 Fonts
