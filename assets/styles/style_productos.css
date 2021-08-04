@@ -4,6 +4,13 @@
     outline: 0;
     box-sizing: border-box;
 }
+
+.contenedor-productos{
+    height: auto;
+    width: 100%;
+}
+
+/*
 .centrar{
     display: flex;
     justify-content: center;
@@ -46,10 +53,12 @@
     justify-content: center;
 }
 
+
+
 .card-encabezado img{
     border-radius: 5%;
-    height: 90%;
-    width: 90%;
+    height: 234px;
+    width: 225px;
     background-size: cover;
     transition: all 0.3s ease;
 }
@@ -98,7 +107,7 @@
 .card-iconos img:hover{
     background-color: rgba(0, 0, 0, 0.6);
     transition-timing-function: ease-in;
-}
+}*/
 
 /*
                 Fonts
