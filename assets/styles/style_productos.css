@@ -7,18 +7,6 @@
 
 .contenedor-productos{
     height: auto;
-    width: 100%;
-}
-
-/*
-.centrar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-}
-
-.contenedor_productos{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
     width: 100%;
@@ -27,87 +15,128 @@
 }
 
 .card{
-    display: grid;
-    height: 260px;
-    width: 250px;
     overflow: hidden;
     margin-top: 10px;
     margin-bottom: 10px;
+    height: 260px;
+    width: 250px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-image: linear-gradient(10deg, rgba(242, 201, 79, 0.8), rgba(255, 255, 255, .5));
     border-radius: 10%;
     transition: all 1s ease-in-out;
-    text-align: center;
-    background-image: linear-gradient(10deg, rgba(242, 201, 79, 0.8), rgba(255, 255, 255, .5));
 }
 
 .card:hover{
-    align-content: center;
     height: 600px;
-    border-radius: 5px;
-}
-
-.card-encabezado{
-    height: 260px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-.card-encabezado img{
     border-radius: 5%;
+}
+
+.slider1{
+    height: 234px;
+    width: 225px;
+    overflow: hidden;
+    margin-top: 13px;
+}
+/*
+    ANIMATIONS
+*/
+.slider1 ul{
+    padding: 0;
+    display: flex;
+    width: 200%;
+    animation: cambio1 5s infinite alternate ease;
+}
+.slider2 ul{
+    animation: cambio2 15s infinite alternate ease;
+}
+/*
+    END 225ANIMATIONS
+*/
+
+.slider1 ul li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider1 ul li img{
     height: 234px;
     width: 225px;
     background-size: cover;
-    transition: all 0.3s ease;
 }
 
-.card-contenido p{
+.especial1{
+    width: 158px;
+    height: 255px;
+}
+
+.card h3{
     font-family: 'Lobster Two', cursive;
     font-size: 30px;
     font-weight: lighter;
     color: rgb(149, 149, 124);
     padding-bottom: 10px;
+    margin-top: 10px;
 }
 
-.card-contenido ul{
+.propiedades{
     list-style: none;
-    padding-bottom: 20px;
 }
 
-.card-contenido ul li{
+.propiedades li{
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 14px;
     padding-right: 5px;
-    padding-left: 5px;
+    padding-left: 10px;
     color: rgb(149, 149, 124);;
 }
 
-.card-animo p{
+.card p{
     color: rgb(149, 149, 124);
     font-size: 25px;
+    margin-top: 10px;
     padding-bottom: 20px;
 }
 
-.card-iconos{
+.medios-contacto{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    width: 100%;
     column-gap: 5px;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.card-iconos img{
+.medios-contacto img{
     border-radius: 100%;
     transition: .5s;
 }
 
-.card-iconos img:hover{
+.medios-contacto img:hover{
     background-color: rgba(0, 0, 0, 0.6);
     transition-timing-function: ease-in;
-}*/
+}
+
+@keyframes cambio1 {
+    0% {margin-left: 0;}
+    45% {margin-left: 0;}
+
+    50% {margin-left: -100%;}
+    100%{margin-left: -100%;}
+}
+
+@keyframes cambio2 {
+    0% {margin-left: 0;}
+    35%{margin-left: 0;}
+
+    36%{margin-left: -100%;}
+    72%{margin-left: -100%;}
+
+    73%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+}
 
 /*
                 Fonts
